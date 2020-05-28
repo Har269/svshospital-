@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+     	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          
+	<title></title>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark p-3 justify-content-center">
+    <spand class="text-white"><i class="fa fa-phone se pr-2 pl-5"> Call Us +91 7306010524</i> <i class="fa fa-envelope  pr-1 se pl-5">  Mail us: svs123@gmail.com</i></span>
+  </nav>
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark p-3" style="margin-top: 20px;">
+  <a class="navbar-brand" href="#"><i class="fa fa-child fa-2x text-warning"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav text-white" style="font-size: 22px; color:white;">
+      <li class="nav-item">
+        <a class="nav-link text-white "href="index.html" active><i class="fa fa-home">Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">AboutUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">ContactUs</a>
+      </li>  
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Services
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="departments.html">Departments</a>
+        <a class="dropdown-item" href="doctors.html">Doctors</a>
+        <a class="dropdown-item" href="#">Medical college</a>
+      </div>
+    </li>  
+    </ul>
+  </div>  
+    <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+<br>
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark p-2 justify-content-center">
+  </nav>
+
+  <div class="head text-white p-2 pl-3 m2-1 mt-0 ml-2"></div>
+<div style="background-image:url('images/physio.jpg');" class="mx-0">
+<div class="container justify-content-center">
+		<div class="row justify-content-center">
+		<h2 class="text-info mt-5 px-3 bg-light">Make an Appointment:</h2>
+		<p class="text-info mb-4 px-4 py-2 text-center bg-light">A prior appointment will always help to save a lot of time.<br> Patients can take appointments well in advance with providing all the necessary details, so that the consultation will be more effective and comprehensive.</p>
+	</div>
+	<div class="row justify-content-center">
+		<form name="appointment form" action="doctors.html" >
+			<div class="form_group ">
+				<input type="text" id="field" name="name" placeholder="Enter Patient name"class=" mb-2 pr-5 border-info form-control" required=""></div>
+					<div class="form_group">							
+						<input  type="email" id="field"  name="email" placeholder="Email address" class=" mb-2 p-3 pr-5 border-info form-control"required=""></div>
+					<div class="form_group">
+						<input name="name" id="field"  placeholder="Date of birth"class="mt-2 mb-2 p-3 pr-5 border-info  form-control" required="" type="text"></div>
+					<div class="form_group">
+						<select class=" mb-2 p-2 border-info text-secondary pr-5 default-select" id="field" >
+							<option data-display="Doctor’s name">Doctor’s name</option>
+							<option value="1">Trived</option>
+							<option value="2">Sravani</option>
+						</select></div>
+					<div class="form_group">
+						<input type="text" name="subject" placeholder="Appointment date" id="field"  class=" mb-2 p-3 pr-5 border-info  form-control" required=""></div>
+					<div class="form_group"><textarea class=" mb-2  pr-5 p-3 border-info form-control" name="message" placeholder="Message"></textarea></div>
+				<input type="submit" style="font-size:17px"onsubmit="return ckeck()" class=" btn btn-default btn-lg btn-info mt-2 p-2 ml-5 text-white" value="confirm booking">
+			</div>
+		</form>
+	</div>`
+</div>
+</div></div>
+<footer>
+      <div class="container-fluid p-5" style="background-color: cyan">
+        <div class="row" style="background-color: cyan">
+          <div class="col-lg-3">
+              <a href="doctors.html" class="text-white h4">About Us</a>
+              <p>Our website is a platform to help you know better about the specialists over the world and also locally.You can reach,search and make appointments easily.</p>
+            </div>
+          <div class="col-lg-4">
+              <a href="contact.html" class="text-white h4">Contact Us</a>
+              <p>Contact for more info and quieries:<br> We would love to here from you :)</p>
+              <p class="tel numbers">012-6532-568-9746 <br>012-6532-569-9748</p>
+            </div>
+          <div class="col-lg-5">
+              <h4 class="text-white">Newsletter</h4>
+              <p>Subscribe to ur NewsLetter.</p>
+                <form class="navbar-form" novalidate="true" action="index.html">
+                  <div class="input-group">
+                    <input class="form-control" name="EMAIL" placeholder="Email address"required="" type="email">
+                    <button class="btn btn-info btn-outline-light text-white">get started</button>
+                    </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+  <div>
+      <p class="text-center">Copyright &copy;<strong>Nida Firdous</strong></p>
+      <!--    <div class="social_icons  ml-5 pl-5 align-text-center">
+            <a href="#"><i class="fa fa-facebook pl-5"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+  </div>-->
+  </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</html>
