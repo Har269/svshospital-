@@ -1,0 +1,13 @@
+.customDiv{
+	margin: 5px;
+	min-width: 50px;
+	min-height: 100px;
+	background-color:skyblue;
+}
+
+.customDiva{
+	margin: 5px;
+	min-width: 50px;
+	min-height: 100px;
+	background-color:blue;
+}

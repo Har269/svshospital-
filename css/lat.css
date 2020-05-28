@@ -1,0 +1,15 @@
+.customDiv{
+	padding: 15px;
+	font-size: 18px;
+	min-height: 100px;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+.customDiva{
+	padding: 15px;
+	font-size: 18px;
+	min-height: 500px;
+	background-color: yellow;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.customDiv{
+	margin: 3px;
+	min-height: 150px;
+	min-width: 50px;
+	background-color: green;
+	text-align: center;
+}
+
+.customDiva{
+	margin: 3px;
+	min-height: 600px;
+	min-width: 50px;
+	background-color: green;
+	text-align: center;
+
+}

@@ -1,0 +1,12 @@
+.customDiva{
+	margin: 3px;
+	min-height: 800px;
+	min-width: 10px;
+	background-color: yellow;
+}
+.customDiv{
+	margin: 5px;
+	min-height: 120px;
+	min-width: 10px;
+	background-color: yellow;
+}
